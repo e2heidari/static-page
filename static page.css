@@ -23,13 +23,25 @@ body {
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
     font-size: 25px;
     text-align: right;
     translate: -15px;
 }
 
-.vavbar a {
+.main-text {
+    width: 600px;
+    margin: 0 auto;
+    transform: translate(0, -120px);
+}
 
-    display: block;
+h1 {
+    font-size: 400%;
+}
 
+p {
+    font-size: 1.125em;
+    line-height: 1.45;
+    font-family: Georgia Pro, Georgia, serif;
 }
