@@ -45,3 +45,32 @@ p {
     line-height: 1.45;
     font-family: Georgia Pro, Georgia, serif;
 }
+
+.liner {
+    display: flex;
+    justify-content: center;
+}
+
+.down {
+    margin: 0;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.down .part1 {
+    width: 40%;
+    padding: 100px 0;
+}
+
+.down .part2 {
+    width: 20%;
+    padding: 100px 0;
+}
+
+.down .part3 {
+    width: 40%;
+    padding: 100px 0;
+}
