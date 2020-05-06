@@ -17,6 +17,16 @@ body {
     transition: .3s ease;
 }
 
+.opapic {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 200px;
+    z-index: -10;
+    background: linear-gradient(to bottom, transparent, white), url(img/1.jpg);
+    height: 323px;
+}
+
 .main-image {
     height: 200px;
     background-image: url("img/4.jpg");
@@ -132,13 +142,16 @@ input[type="checkbox"]:checked~.background {
     width: 600px;
     margin: 0 auto;
     background-color: lightyellow;
+    z-index: 2;
 }
 
 h1 {
     font-size: 400%;
+    z-index: 3;
 }
 
 p {
+    z-index: 4;
     font-size: 1.125em;
     line-height: 1.45;
     font-family: Georgia Pro, Georgia, serif;
