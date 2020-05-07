@@ -134,7 +134,7 @@ input[type="checkbox"]:checked~.ham-menu {
 }
 
 
-input[type="checkbox"]:checked~.background {
+input[type="checkbox"]:checked~.lab .background {
     opacity: 0;
 }
 
